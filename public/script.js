@@ -1,22 +1,15 @@
 document.body.style.margin   = 0
 document.body.style.overflow = `hidden`
 
-const cnv = document.getElementById (`cnv_element`)
-cnv.width = innerWidth
-cnv.height = innerHeight
+const print = msg => console.log (msg)
 
-const ctx = cnv.getContext (`2d`)
+print (`what's up`)
 
-const draw_frame = () => {
-   ctx.fillStyle = `turquoise`
-   ctx.fillRect (0, 0, innerWidth, innerHeight)
+const ex_arr = ['a', 'b', 'c']
 
-   requestAnimationFrame (draw_frame)
-}
+print (ex_arr.length)
 
-draw_frame ()
+// ex_arr.forEach (print)
 
-window.onresize = () => {
-   cnv.width = innerWidth
-   cnv.height = innerHeight   
-}
+ex_arr.forEach (sam => console.log (sam))
+
