@@ -34,7 +34,7 @@ img.onload = () => {
 }
 
 // The image source
-img.src = `glitch_hw.jpg` 
+img.src = `sort.jpg` 
 
 let frame_count = 0
 
