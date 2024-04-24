@@ -5,7 +5,7 @@ import { PixelSorter } from "/pixel_sort_class.js"
 
 const cnv  = document.getElementById (`pixelsort_portrait2`)
 cnv.width  = innerWidth/-3
-cnv.height = innerHeight/2
+cnv.height = innerHeight
 
 const ctx = cnv.getContext (`2d`)
 
