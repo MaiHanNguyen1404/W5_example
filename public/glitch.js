@@ -42,7 +42,7 @@ img.onload = () => {
 }
 
 // The image source 
-img.src = `/glitch_hw.JPG` 
+img.src = `/glitch.JPG` 
 
 // Define a function to generate random integer 
 // within the maximum range (0 to max, excluding max)
